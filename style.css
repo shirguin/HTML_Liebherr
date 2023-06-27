@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Sans:wght@700&family=Roboto:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +16,7 @@ body {
 .header {
   display: flex;
   justify-content: center;
+  gap: 80px;
   height: 95px;
   background-color: #2d2d2d;
   opacity: 0.9;
@@ -40,4 +42,80 @@ body {
 .header__right {
   display: flex;
   justify-content: start;
+  align-items: center;
+  gap: 44px;
+}
+.header__right__icon {
+  width: 21px;
+  height: 21px;
+}
+.header__right__first {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.header__right__first__time {
+  display: flex;
+  gap: 10px;
+}
+.header__right__first__time__text {
+  font-size: 14px;
+  font-family: Montserrat;
+  line-height: 142.188%;
+  color: #fff;
+}
+.header__right__first__address {
+  margin-left: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header__right__first__address__text {
+  width: 144px;
+  height: 34px;
+  font-size: 14px;
+  font-family: Montserrat;
+  line-height: 142.188%;
+  color: #fff;
+}
+.header__right__button {
+  padding: 8px 27px;
+  border: 1px solid #FFBF1D;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: PT Sans;
+  font-weight: 700;
+  line-height: 141.688%;
+  color: #fff;
+}
+.header__right__button:hover {
+  background-color: #fff;
+  color: #2d2d2d;
+}
+.header__right__end {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.header__right__end__telephones {
+  display: flex;
+  flex-direction: column;
+}
+.header__right__end__telephones__text {
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 156.687%;
+  color: #fff;
+}
+
+.navigation {
+  display: flex;
+}
+.navigation__menu {
+  display: flex;
+  gap: 30px;
+}
+.navigation__menu__item__link {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
