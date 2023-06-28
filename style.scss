@@ -307,7 +307,7 @@ body {
       font-weight: 700;
       line-height: 141.688%;
       color: $blackColorTitle;
-      margin-left: 215px;
+      margin-left: 214px;
       margin-top: 51px;
 
       &__orange {
@@ -320,6 +320,7 @@ body {
       height: 458px;
       align-self: self-end;
       margin-top: 23px;
+      margin-left: 214px;
     }
   }
 
@@ -382,6 +383,7 @@ body {
 .benefit {
   background-color: $greyColorBackgroundSite;
   display: flex;
+  gap: 72px;
 
   &__left {
     display: flex;
@@ -413,5 +415,77 @@ body {
         color: $darkColorBackgroundSite;
       }
     }
+
+    &__button {
+      background-color: $orangeColor;
+      text-decoration: none;
+      font-size: 18px;
+      font-family: PT Sans;
+      font-weight: 700;
+      line-height: 141.688%;
+      color: $whiteColorText;
+      border: $goldColorBorder;
+      width: 219px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      margin-left: 214px;
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+
+    &__button:hover {
+      background-color: $whiteColorText;
+      color: $orangeColor;
+    }
+  }
+
+  &__right {
+    width: 488px;
+    height: 329px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 326px;
+
+    &__item {
+      width: 244px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 52px;
+        margin-top: 20px;
+
+        &__p {
+          text-align: center;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 500;
+          line-height: 142.188%;
+          color: $darkColorBackgroundSite;
+        }
+      }
+    }
+  }
+}
+
+.blackBlock{
+  width: $widthSite;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $darkColorBackgroundSite;
+
+  &__content{
+    width: 1053px;
+    height: 120px;
+    background-color: #ffffff;
   }
 }
