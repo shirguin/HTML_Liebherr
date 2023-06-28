@@ -283,4 +283,135 @@ body {
   &__right__arrowButton:hover svg path {
     stroke: black;
   }
+
+  &__bottom {
+    width: 1600px;
+    height: 75px;
+    background-color: $greyColorBackgroundSite;
+  }
+}
+
+.rent {
+  display: flex;
+  background-color: #ffffff;
+  gap: 30px;
+
+  &__left {
+    width: 788px;
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+      font-size: 40px;
+      font-family: PT Sans;
+      font-weight: 700;
+      line-height: 141.688%;
+      color: $blackColorTitle;
+      margin-left: 215px;
+      margin-top: 51px;
+
+      &__orange {
+        color: $orangeColorTitle;
+      }
+    }
+
+    &__img {
+      width: 648px;
+      height: 458px;
+      align-self: self-end;
+      margin-top: 23px;
+    }
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    &__title {
+      font-size: 33px;
+      font-family: PT Sans;
+      font-weight: 700;
+      line-height: 142.188%;
+      color: $darkColorBackgroundSite;
+      margin-top: 163px;
+    }
+
+    &__text {
+      width: 566px;
+      height: 114px;
+      font-size: 16px;
+      font-family: Montserrat;
+      line-height: 156.687%;
+      color: $darkColorBackgroundSite;
+    }
+
+    &__button {
+      background-color: $orangeColor;
+      text-decoration: none;
+      font-size: 18px;
+      font-family: PT Sans;
+      font-weight: 700;
+      line-height: 141.688%;
+      color: $whiteColorText;
+      border: $goldColorBorder;
+      width: 219px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+    }
+
+    &__button:hover {
+      background-color: $whiteColorText;
+      color: $orangeColor;
+    }
+
+    &__slider {
+      margin-top: 34px;
+      margin-left: 465px;
+
+      &__scroll {
+        margin-top: 26px;
+        margin-left: 0;
+        margin-bottom: 23px;
+      }
+    }
+  }
+}
+
+.benefit {
+  background-color: $greyColorBackgroundSite;
+  display: flex;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+      color: $darkColorBackgroundSite;
+      font-size: 40px;
+      font-family: PT Sans;
+      font-weight: 700;
+      line-height: 141.688%;
+      margin-top: 182px;
+      margin-left: 214px;
+    }
+
+    &__textBlock {
+      height: 310px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-top: 65px;
+
+      &__text {
+        width: 583px;
+        font-size: 16px;
+        font-family: Montserrat;
+        line-height: 156.687%;
+        margin-left: 214px;
+        color: $darkColorBackgroundSite;
+      }
+    }
+  }
 }
