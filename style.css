@@ -427,7 +427,39 @@ body {
   background-color: #2d2d2d;
 }
 .blackBlock__content {
+  display: flex;
+  justify-content: space-between;
   width: 1053px;
   height: 120px;
-  background-color: #ffffff;
+}
+.blackBlock__content__item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.blackBlock__content__item__text {
+  font-size: 18px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 142.188%;
+  color: #fff;
+  text-align: center;
+  margin-top: 5px;
+}
+.blackBlock__content__item__left {
+  width: 137px;
+}
+.blackBlock__content__item__center {
+  width: 235px;
+}
+.blackBlock__content__item__right {
+  width: 265px;
+}
+
+.greyBlock {
+  width: 1600px;
+  height: 120px;
+  background-color: #f3f3f3;
 }/*# sourceMappingURL=style.css.map */
