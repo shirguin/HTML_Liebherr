@@ -690,4 +690,67 @@ body {
 .catalog__button:hover {
   background-color: #2d2d2d;
   color: #f3f3f3;
+}
+
+.rentalPrice {
+  display: flex;
+  flex-direction: column;
+  background-color: #2d2d2d;
+}
+.rentalPrice__content__title {
+  font-size: 40px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 141.688%;
+  color: #fff;
+  margin-top: 18px;
+  margin-left: 222px;
+}
+.rentalPrice__content__items {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 23px;
+  margin-bottom: 36px;
+}
+.rentalPrice__content__items__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rentalPrice__content__items__item__text {
+  width: 273px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 156.687%;
+  color: #fff;
+}
+
+.order {
+  width: 1600px;
+  height: 265px;
+  border-top: 30px solid #fcb427;
+  border-bottom: 30px solid #fcb427;
+  margin-top: 50px;
+  background-color: #fff;
+  background-image: url(./img/mobkran.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.order__title {
+  font-size: 33px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 142.188%;
+  color: #2d2d2d;
+  margin-top: 22px;
+  margin-left: 214px;
+}
+.order__title__span {
+  color: #fcb427;
 }/*# sourceMappingURL=style.css.map */
